@@ -14,8 +14,35 @@
   --light-greyish-blue: hsl(240, 5%, 91%);
 }
 
-.body {
-  font-family: "Kumbh Sans";
+body {
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
+  background-repeat: no-repeat;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background: white;
+  width: 500px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+#image {
+  order: 1;
+}
+
+#image img {
+  width: 300px;
+}
+
+#questions {
+  order: 2;
 }
 
 .attribution {
