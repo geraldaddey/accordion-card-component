@@ -1,0 +1,29 @@
+:root {
+  /* text  */
+  --verydarkdesaturatedblue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --very-dark-greyish-blue: hsl(237, 12%, 33%);
+  --dark-greyish-blue: hsl(240, 6%, 50%);
+
+  /* Background gradient: */
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+
+  /* Dividers */
+
+  --light-greyish-blue: hsl(240, 5%, 91%);
+}
+
+.body {
+  background: black;
+  margin: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
